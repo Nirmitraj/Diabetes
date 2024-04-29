@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="news.css">
+    <link rel="shortcut icon" href="files/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Diabetes</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="">Diabetes</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resources.html">Resources</a>
+            <a href="news.html" class="active">News</a>
+            <a href="tools.html">Tools</a>
+            <a href="treatment.html">Treatment</a>
+            <a href="consultation.html">Consultation</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <div class="heading">Latest News and more</div>
+        <div class="carousel fade">
+            <div class="carouselText1">
+                <span id="element"></span>
+            </div>
+        </div>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/" width="400px" height="200px" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the title</h3>
+                <h6 class="news-source" id="news-source">End gadget 30/02/2024 </h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt inventore deleniti provident nemo non. Quis distinctio voluptas unde vel repellendus.</p>
+            </div>
+        </div>
+    </template>
+    <footer>
+        <div class="bottomSection">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="">Diabetes</a>
+            <div class="home-sci">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-twitter' ></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="bottomSection2">
+                <a href="index.html">www.diabetes.com</a>
+            </div>
+        </div>
+    </footer>
+    </body>
+    <script src="news.js"></script>
+    </html>

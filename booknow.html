@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booknow.css">
+    <link rel="shortcut icon" href="files/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Diabetes</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="">Diabetes</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="resources.html">Resources</a>
+            <a href="news.html">News</a>
+            <a href="tools.html">Tools</a>
+            <a href="treatment.html">Treatment</a>
+            <a href="consultation.html">Consultation</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+
+    <div class="container"> 
+        <h1>Appointment Booking</h1> 
+  
+        <!-- Contains error -->
+        <h4 id="errorText"></h4> 
+          
+        <!-- Form element  -->
+        <form id="surveyForm"> 
+  
+            <label for="name"> 
+                Name: 
+            </label><br> 
+            <input type="text" 
+                   id="name" 
+                   name="name" 
+                   required><br> 
+  
+            <label for="age"> 
+                Age: 
+            </label><br> 
+            <input type="number" 
+                   id="age" 
+                   name="age" 
+                   required><br> 
+  
+            <label> 
+                Any health Conditions? 
+            </label><br> 
+            <input type="radio" 
+                   id="indoor" 
+                   name="type" 
+                   value="Indoor" 
+                   required> 
+              
+            <label for="indoor"> 
+                Yes 
+            </label><br> 
+            <input type="radio" 
+                   id="outdoor" 
+                   name="type" 
+                   value="Outdoor" 
+                   required> 
+              
+           <label for="outdoor"> 
+            No 
+            </label><br> 
+            <input type="radio" 
+                   id="both" 
+                   name="type" 
+                   value="Both" 
+                   required> 
+  
+            <label for="both"> 
+                I don't know 
+            </label><br> 
+  
+            <label for="favourite-sport"> 
+                Height: 
+            </label><br> 
+            <input type="text" 
+                   id="favorite-sport" 
+                   name="favorite-sport" 
+                   required><br> 
+  
+            <label for="favorite--sport"> 
+                Weight: 
+            </label><br> 
+            <input type="text" 
+                   id="favorite--sport" 
+                   name="favorite--sport" 
+                   required><br> 
+  
+            <label for="favorite-sport-person"> 
+                Family history of health conditions:
+            </label><br> 
+            <input type="text" 
+                   id="favorite-sport-person" 
+                   name="favorite-sport-person" 
+                   required><br> 
+  
+  
+            <label for="feedback"> 
+                Reason for appointment booking 
+            </label><br> 
+            <input type="textarea" 
+                   id="feedback" 
+                   name="feedback"><br> 
+  
+  
+  
+            <button type="submit"> 
+                <a href="booknow1.html">submit</a> 
+            </button> 
+            <div class="successText"></div>
+        </form> 
+    </div> 
+
+
+    <footer>
+        <div class="bottomSection">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="">Diabetes</a>
+            <div class="home-sci">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-twitter' ></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="bottomSection2">
+                <a href="index.html">www.diabetes.com</a>
+            </div>
+        </div>
+    </footer>
+    </body>
+    </html>
+    
